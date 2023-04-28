@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recorder</title>
+    <style>
+        .box {
+            width:60%;
+            border:1px black solid;
+            min-height:200px;
+            border-radius:5px;
+            margin:auto;
+            font-size:55px!important;
+            
+        }
+        .results {
+            width:50%;
+            border:1px black solid;
+            min-height:300px;
+            border-radius:5px;
+            margin:auto;
+            visibility:hidden;
+            font-size:25px!important;
+        }
+        #a{
+            display:block;
+            text-align:center;
+            margin:auto;
+        }
+        #a:hover{
+            cursor:pointer;;
+        }
+     
+    </style>
+</head>
+<body>
+
+    <div class ='box'></div>
+    <img src="images.png" height="100" width ="100" id="a" ></img>
+    <div class="results"></div>
+    <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>
