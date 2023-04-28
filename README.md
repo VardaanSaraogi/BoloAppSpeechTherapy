@@ -1,7 +1,7 @@
 
 # Project BOLO: Speech Therapy
   
-WeCode Code For Goods
+WeCode Code For Good
 
 
 This is the github repository for BOLO , an app for speech therapy. The repository contains 
